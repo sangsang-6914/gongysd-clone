@@ -32,6 +32,11 @@ npm run dev
 
 [http://localhost:3000](http://localhost:3000)에서 결과를 확인할 수 있습니다.
 
+## 배포
+
+- **Production**: https://css-clone-test.vercel.app
+- **Platform**: [Vercel](https://vercel.com)
+
 ## 프로젝트 구조
 
 ```
