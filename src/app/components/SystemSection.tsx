@@ -24,7 +24,7 @@ const SYSTEMS = [
 /** Our System 섹션 - 개인/전문가/기업 카드 */
 export default function SystemSection() {
   return (
-    <section className="bg-white py-24 md:py-32">
+    <section className="bg-background py-24 md:py-32">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-16 text-center">
           <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-muted">
@@ -40,7 +40,7 @@ export default function SystemSection() {
             <Link
               key={s.label}
               href={s.href}
-              className="group flex flex-col justify-between rounded-2xl border border-border bg-white p-8 transition-all hover:-translate-y-1 hover:border-primary hover:shadow-xl md:min-h-[320px] md:p-10"
+              className="group flex flex-col justify-between rounded-2xl border border-border bg-card-bg p-8 transition-all hover:-translate-y-1 hover:border-primary hover:shadow-xl md:min-h-[320px] md:p-10"
             >
               <div>
                 <span className="mb-6 inline-block text-3xl">{s.icon}</span>

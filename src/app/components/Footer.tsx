@@ -42,7 +42,7 @@ const FOOTER_LINKS = [
 /** 사이트 하단 푸터 */
 export default function Footer() {
   return (
-    <footer className="border-t border-border bg-white">
+    <footer className="border-t border-border bg-background">
       <div className="mx-auto max-w-7xl px-6 py-16">
         {/* Link columns */}
         <div className="grid grid-cols-2 gap-10 md:grid-cols-5">
@@ -93,7 +93,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <p className="mt-6 text-center text-xs text-gray-400">
+        <p className="mt-6 text-center text-xs text-subtle">
           Copyright © 2026 공여사들 All rights reserved.
         </p>
       </div>

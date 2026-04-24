@@ -49,9 +49,9 @@ export default function ValuesSection() {
           {VALUES.map((v) => (
             <div
               key={v.num}
-              className="group relative flex flex-col justify-between rounded-2xl border border-border bg-white p-8 transition-all hover:-translate-y-1 hover:shadow-xl md:p-10"
+              className="group relative flex flex-col justify-between rounded-2xl border border-border bg-card-bg p-8 transition-all hover:-translate-y-1 hover:shadow-xl md:p-10"
             >
-              <span className="mb-8 text-xs font-bold text-gray-300">{v.num}</span>
+              <span className="mb-8 text-xs font-bold text-subtle">{v.num}</span>
               <div>
                 <h3 className="whitespace-pre-line text-4xl font-extrabold leading-tight tracking-tight text-primary md:text-5xl">
                   {v.title}
